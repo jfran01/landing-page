@@ -82,4 +82,24 @@ h1 {
 .main-content {
   background-color: #f7f7f3;
   color: #4b3c2e;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  padding: 20px 80px;
+}
+
+.image {
+  width: 80px;
+}
+
+.card {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
 }
