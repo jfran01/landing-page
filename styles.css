@@ -120,3 +120,42 @@ h1 {
   text-align: right;
   padding-right: 20px;
 }
+
+.cta-wrapper {
+  background-color: #12719a;
+  color: #f7f7f3;
+  border: solid #f7f7f3 60px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta {
+  flex: 1;
+  text-align: left;
+}
+
+.cta-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.sign-up {
+  background-color: #12719a;
+  color: #f7f7f3;
+  font-weight: 600;
+  border: solid #f7f7f3 2px;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 20px;
+}
+
+.sign-up:hover {
+  background-color: #f7f7f3;
+  color: #12719a;
+}
